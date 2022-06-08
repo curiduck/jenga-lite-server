@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "post": "5432",
+  "username": "alex",
+  "password": "",
+  "database": "jenga",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["dist/**/*.entity.{ts,js}"],
+  "schema": "jenga"
+}
